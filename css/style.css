@@ -18,7 +18,7 @@ body {
     color:white;  
   }
   
-  header {
+.index-header {
     padding:20px;
     height:800px;
     background-image: url('../images/background.jpeg');
@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items:center;
 }
-header::before {
+.index-header::before {
     background-size: contain;
     background-repeat: no-repeat;
     content: "";
