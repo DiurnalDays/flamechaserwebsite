@@ -103,7 +103,7 @@ nav ul li{
 }
 
 .container img {
-    width: 100px; 
+    width: 400px; 
     height: auto; 
 }
   footer {
@@ -113,12 +113,16 @@ nav ul li{
     padding: 10px;
   }
   
-  .mc_embed_signup{
+  #mc_embed_signup{
     margin:auto;
     display:block;
+    background-color:white;
   }
 
   footer p {
     margin: 0;  
   }
-  
+  #fade-overlay {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
