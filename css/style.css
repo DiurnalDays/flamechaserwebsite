@@ -115,6 +115,8 @@ nav ul li a:hover, nav ul li a:focus {
   p{
     color:white;
     font-size:20px;
+    margin-left:100px;
+    margin-right:100px;
   }
   img {
     max-width: 100%;
