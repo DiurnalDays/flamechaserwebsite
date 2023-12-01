@@ -110,6 +110,11 @@ nav ul li a.fade-link {
   section h2 {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px; 
+    font-size:25px;
+  }
+
+  section h3{
+    font-size:20px;
   }
   
   .image-grid{
