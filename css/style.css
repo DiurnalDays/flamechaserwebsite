@@ -82,6 +82,9 @@ nav ul li a:hover, nav ul li a:focus {
     box-shadow: inset 0 0 40px white; /* Adjust as needed */
     transition: box-shadow 0.3s ease-in-out; /* Adjust as needed */
 }
+nav ul li a.fade-link {
+    text-decoration: underline;
+}
 
   main {
     display: flex;
