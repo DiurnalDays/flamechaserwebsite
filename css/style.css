@@ -47,20 +47,19 @@ header::before {
     margin: 20;  
   }
 
-  header nav ul {
-    list-style-type: none; /* Removes the black dots */
+   nav ul {
+    list-style: none;
     display: flex;
     color: white;
-    background-color: #333; /* Dark gray, same as your sections */
+    background-color: #333; 
     padding: 20px;
-    border-radius: 5px; /* Optional: Rounds the corners of the box */
-    justify-content: space-around; /* Spaces the items evenly */
+    border-radius: 5px; 
+    justify-content: space-around;
 }
-  
-  header nav li {
-    margin-left: 20px;  
-  }
-  header nav li:hover {
+nav ul li{
+    color:white;
+}
+    nav ul:hover {
     background-color: #555;
     color: white;
 }
@@ -90,6 +89,7 @@ header::before {
   
   p{
     color:white;
+    font-size:20px;
   }
   img {
     max-width: 100%;
