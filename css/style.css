@@ -20,7 +20,7 @@ body {
   
   header {
     padding:20px;
-    height:700px;
+    height:800px;
     background-image: url('../images/background.jpeg');
     background-size: cover; 
     background-position: center; 
@@ -48,10 +48,14 @@ header::before {
   }
 
   header nav ul {
-    list-style: none;  
+    list-style-type: none; /* Removes the black dots */
     display: flex;
-    color:white;
-  }
+    color: white;
+    background-color: #333; /* Dark gray, same as your sections */
+    padding: 20px;
+    border-radius: 5px; /* Optional: Rounds the corners of the box */
+    justify-content: space-around; /* Spaces the items evenly */
+}
   
   header nav li {
     margin-left: 20px;  
