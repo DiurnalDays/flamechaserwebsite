@@ -8,11 +8,13 @@ body {
     color: #333;  
   }
   
-  /* Header */
   header {
     color: white;
-    padding: 20px;
-  }
+    padding:20px;
+    background-image: url('images/background.jpeg');
+    background-size: cover; 
+    background-position: center; 
+}
   
   header h1 {
     margin: 20;  
@@ -26,10 +28,16 @@ body {
   header nav li {
     margin-left: 20px;  
   }
-  body{
-    margin:20px;
-  }
-  /* Main content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
   main {
     max-width: 800px;
     margin: 0 auto;
