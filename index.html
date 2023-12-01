@@ -94,19 +94,18 @@
         overlay.style.display = 'block';
         setTimeout(() => {
             overlay.style.opacity = '1';
-        }, 50);
+        }, 10); 
         setTimeout(() => {
             window.location = this.href;
-        }, 1000); 
+        }, 500); 
     });
 });
-  
-  // Hide the overlay when the page has loaded
-  window.addEventListener('load', () => {
+
+window.addEventListener('load', () => {
     var overlay = document.getElementById('fade-overlay');
     setTimeout(() => {
         overlay.style.opacity = '0';
-    }, 50); // Short delay before starting fade-out
+    }, 500);
 });
 </script>
 </body>

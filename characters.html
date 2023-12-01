@@ -107,6 +107,27 @@
       <p>The head mechanic of Yurisekai Base. She used to be a pilot candidate, but she decided that the underside of the hangar was where she'd rather be. However, she still maintains strong friendships with both Lieutenant Hope and Major Grace from her cadet academy days.</p>
     </article>
   </section>
+  <script>
+  document.querySelectorAll('a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        var overlay = document.getElementById('fade-overlay');
+        overlay.style.display = 'block';
+        setTimeout(() => {
+            overlay.style.opacity = '1';
+        }, 50); 
+        setTimeout(() => {
+            window.location = this.href;
+        }, 500); 
+    });
+});
 
+window.addEventListener('load', () => {
+    var overlay = document.getElementById('fade-overlay');
+    setTimeout(() => {
+        overlay.style.opacity = '0';
+    }, 5000);
+});
+</script>
 </body>
 </html>

@@ -71,5 +71,25 @@
       <p>Contributed music tracks to the game</p>
     </article>
   </section>
+<script>document.querySelectorAll('a').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      var overlay = document.getElementById('fade-overlay');
+      overlay.style.display = 'block';
+      setTimeout(() => {
+          overlay.style.opacity = '1';
+      }, 50); 
+      setTimeout(() => {
+          window.location = this.href;
+      }, 500); 
+  });
+});
+
+window.addEventListener('load', () => {
+  var overlay = document.getElementById('fade-overlay');
+  setTimeout(() => {
+      overlay.style.opacity = '0';
+  }, 5000);
+});</script>
 </body>
 </html>
