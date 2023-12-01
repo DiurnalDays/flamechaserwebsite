@@ -70,8 +70,15 @@ body {
     height: auto;
     border-radius: 5px;
   }
-  
-  /* Footer */  
+  .container {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.container img {
+    width: 100px; 
+    height: auto; 
+}
   footer {
     background: #333;
     color: white;
