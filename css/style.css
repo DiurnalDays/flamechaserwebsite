@@ -45,24 +45,42 @@ body {
 }
   
   header h1 {
-    margin: 20;  
+    margin: 20px;  
   }
 
-   nav ul {
-    list-style: none;
+  nav {
+    background-color: #494949; /* Change to match your section's background color */
+    color: white; /* Change to match your section's font color */
+    padding: 20px; /* Change to match your section's padding */
+    height:100px;
     display: flex;
-    color: white;
-    background-color: #333; 
-    padding: 20px;
-    border-radius: 5px; 
-    justify-content: space-around;
+    align-items: center;
+    justify-content:center;
 }
-nav ul li{
-    color:white;
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height:100%;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center;
 }
-    nav ul:hover {
-    background-color: #555;
-    color: white;
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white; /* Change to match your section's link color */
+    text-decoration: none;
+    font-size:30px;
+    margin: 50px;
+}
+nav ul li a:hover, nav ul li a:focus {
+    box-shadow: inset 0 0 40px white; /* Adjust as needed */
+    transition: box-shadow 0.3s ease-in-out; /* Adjust as needed */
 }
 
   main {
