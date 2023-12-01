@@ -17,11 +17,19 @@
   </nav>
 </head>
 
-<body>
+<body id="top">
   <header>
   </header>
-   
-  <section>
+  <div id="table-of-contents">
+    <h2>TABLE OF CONTENTS</h2>
+    <ul>
+        <li><a href="#mainchara">Main Characters</a></li>
+        <li><a href="#rivals">Rivals</a></li>
+        <li><a href="#mentors">Mentors</a></li>
+        <!-- Add more links as needed -->
+    </ul>
+</div>
+  <section id="mainchara">
     <h2>Main Characters</h2>
     
     <div class="container">
@@ -52,7 +60,7 @@
     </div>
   </section>  
 
-  <section>
+  <section id="rivals">
     <h2>Rivals</h2>
     <div class="container">
     <article>
@@ -91,7 +99,7 @@
 
   </section>
 
-<section>
+<section id="mentors">
     <h2>Mentors</h2>
 
     <div class="container">
@@ -126,7 +134,9 @@
     </article>
   </section>
 </div>
-
+<section>
+<a href="#top">Back to Top</a>
+</section>
   <script>
   document.querySelectorAll('a.fade-link').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
