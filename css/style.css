@@ -10,13 +10,13 @@ body {
   
   /* Header */
   header {
-    background-color: #5b7d87;
+    background-color: #253941
     color: white;
     padding: 20px;
   }
   
   header h1 {
-    margin: 0;  
+    margin: 20;  
   }
   
   header nav ul {
@@ -62,3 +62,4 @@ body {
   footer p {
     margin: 0;  
   }
+  
