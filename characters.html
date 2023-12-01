@@ -9,7 +9,7 @@
       
       <li><a href="team.html">About the Team</a></li>
       
-      <li><a href="characters.html">Character Profiles</a></li> 
+      <li><a href="characters.html" class="fade-link">Character Profiles</a></li> 
     </ul>
   </nav>
 </head>
@@ -108,26 +108,26 @@
     </article>
   </section>
   <script>
-  document.querySelectorAll('a').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        var overlay = document.getElementById('fade-overlay');
-        overlay.style.display = 'block';
-        setTimeout(() => {
-            overlay.style.opacity = '1';
-        }, 50); 
-        setTimeout(() => {
-            window.location = this.href;
-        }, 500); 
-    });
+  document.querySelectorAll('a.fade-link').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      var overlay = document.getElementById('fade-overlay');
+      overlay.style.display = 'block';
+      setTimeout(() => {
+          overlay.style.opacity = '1';
+      }, 50); 
+      setTimeout(() => {
+          window.location = this.href;
+      }, 500); 
+  });
 });
 
 window.addEventListener('load', () => {
-    var overlay = document.getElementById('fade-overlay');
-    setTimeout(() => {
-        overlay.style.opacity = '0';
-    }, 5000);
-});
+  var overlay = document.getElementById('fade-overlay');
+  setTimeout(() => {
+      overlay.style.opacity = '0';
+  }, 5000);
+});;
 </script>
 </body>
 </html>

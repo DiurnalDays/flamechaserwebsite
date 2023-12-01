@@ -7,7 +7,7 @@
     <ul>
       <li><a href="index.html">Home</a></li>
       
-      <li><a href="team.html">About the Team</a></li>
+      <li><a href="team.html" class="fade-link">About the Team</a></li>
       
       <li><a href="characters.html">Character Profiles</a></li> 
     </ul>
@@ -71,7 +71,7 @@
       <p>Contributed music tracks to the game</p>
     </article>
   </section>
-<script>document.querySelectorAll('a').forEach(anchor => {
+<script>document.querySelectorAll('a.fade-link').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
       e.preventDefault();
       var overlay = document.getElementById('fade-overlay');
@@ -90,6 +90,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
       overlay.style.opacity = '0';
   }, 5000);
-});</script>
+});;
+</script>
 </body>
 </html>
