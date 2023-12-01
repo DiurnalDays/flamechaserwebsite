@@ -8,13 +8,15 @@ body {
     text-align:center;
   }
   
-  h1, h2, h3 {
+  h1{color:black;}
+
+  h2, h3 {
     color:white;  
   }
   
   header {
     padding:20px;
-    background-image: url('images/background.jpeg');
+    background-image: url('../images/background.jpeg');
     background-size: cover; 
     background-position: center; 
 }
