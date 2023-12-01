@@ -112,6 +112,11 @@ nav ul li{
     padding: 10px;
   }
   
+  .mc_embed_signup{
+    margin:auto;
+    display:block;
+  }
+
   footer p {
     margin: 0;  
   }
