@@ -205,3 +205,8 @@ a[href="#top"] {
     text-decoration: none; /* Remove underline */
     border-radius: 5px; /* Add rounded corners */
 }
+#mc_embed_signup_scroll h2 {
+  color: black;
+  padding-top:20px;
+  margin:20px;
+}
