@@ -171,7 +171,7 @@ nav ul li a.fade-link {
     padding: 20px; 
 }
 #table-of-contents h2 {
-    text-decoration:italic;
+    font: italic;
 }
 #table-of-contents ul {
     list-style-type: none;
