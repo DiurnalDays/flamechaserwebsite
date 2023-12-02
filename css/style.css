@@ -138,7 +138,7 @@ nav ul li a.fade-link {
     display: flex;
     justify-content: space-around; 
 }
-
+h1{color:white;}
 .container img {
     width: 400px; 
     height: auto; 
