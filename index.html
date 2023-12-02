@@ -106,27 +106,5 @@
     <p>All Rights Reserved.</p>
   </footer>
 
-<script>
-  document.querySelectorAll('a.fade-link').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      var overlay = document.getElementById('fade-overlay');
-      overlay.style.display = 'block';
-      setTimeout(() => {
-          overlay.style.opacity = '1';
-      }, 50); 
-      setTimeout(() => {
-          window.location = this.href;
-      }, 500); 
-  });
-});
-
-window.addEventListener('load', () => {
-  var overlay = document.getElementById('fade-overlay');
-  setTimeout(() => {
-      overlay.style.opacity = '0';
-  }, 5000);
-});;
-</script>
 </body>
 </html>
