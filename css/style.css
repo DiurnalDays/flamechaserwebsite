@@ -47,6 +47,12 @@ body {
     animation: fadeIn 2s ease-in-out forwards;
 }
   
+@media (prefers-reduced-motion: reduce) {
+  .index-header::before {
+      animation-duration: 0s;
+  }
+}
+
   header h1 {
     margin: 20px;  
   }
